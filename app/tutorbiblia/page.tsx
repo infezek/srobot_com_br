@@ -5,8 +5,9 @@ import Link from "next/link";
 import { useEffect, useMemo } from "react";
 
 const PLAY_STORE_URL =
-  "https://play.google.com/store/apps/details?id=SEU_PACOTE_AQUI";
-const APP_STORE_URL = "https://apps.apple.com/app/idSEU_ID_AQUI";
+  "https://play.google.com/store/apps/details?id=com.srobot.biblesmartai&safe=active";
+const APP_STORE_URL =
+  "https://apps.apple.com/us/app/bible-ai-daily-verse/id6756612611";
 
 function detectOS(userAgent: string) {
   const ua = userAgent.toLowerCase();
